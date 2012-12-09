@@ -1,0 +1,10 @@
+.colorsWrapper{
+	border:1px solid black;
+	width:155px;
+}
+.colorsWrapper span{
+	margin:2px;
+	width:15px;
+	height:15px;
+	display:inline-block;
+}
