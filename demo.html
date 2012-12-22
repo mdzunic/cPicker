@@ -5,11 +5,21 @@
 		<script type="text/javascript" src="cPicker.js"></script>
 	</head>
 	<body>
+		<span class="switch">Show more colors</span>
 		<div class="colorsWrapper">
 			
 		</div>
+		<div class="moreColorsWrap hidden">
+			<canvas id="canvas" width="360" height="360">
+			This text is displayed if your browser does not support HTML5 Canvas.
+			</canvas>
+			<div>
+				<span id="colorDisplay" style="display:inline-block;width:20px;height:20px;"></span>
+				<span id="status"></span>
+			</div>
+		</div>
 		<div class="colorSelected">
-			<input type="text" />
+			<input id="codeDisplay" type="text" value="" />
 		</div>
 	</body>
 </html>

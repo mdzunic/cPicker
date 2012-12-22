@@ -8,3 +8,11 @@
 	height:15px;
 	display:inline-block;
 }
+.hidden{
+	display:none;
+}
+.switch{
+	cursor:pointer;
+	background:#333;
+	color:white;
+}
